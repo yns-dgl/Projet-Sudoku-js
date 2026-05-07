@@ -8,5 +8,4 @@ L’objectif était de créer un Sudoku jouable et interactif en travaillant :
 - la logique du jeu
 - l’interface utilisateur
 
-Clonage du projet : 
 https://github.com/yns-dgl/Projet-Sudoku-js.git
