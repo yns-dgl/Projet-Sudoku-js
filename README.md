@@ -10,6 +10,6 @@ L’objectif était de créer un Sudoku jouable et interactif en travaillant :
 
 https://github.com/yns-dgl/Projet-Sudoku-js.git
 
-  ```bash
-[[   git clone https://github.com/yns-dgl/Projet-Sudoku-js.git
-''
+```bash
+git clone https://github.com/yns-dgl/Projet-Sudoku-js.git
+```
