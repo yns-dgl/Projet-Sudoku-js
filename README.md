@@ -9,3 +9,7 @@ L’objectif était de créer un Sudoku jouable et interactif en travaillant :
 - l’interface utilisateur
 
 https://github.com/yns-dgl/Projet-Sudoku-js.git
+
+  ```bash
+[[   git clone https://github.com/yns-dgl/Projet-Sudoku-js.git
+''
