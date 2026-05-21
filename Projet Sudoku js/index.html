@@ -10,16 +10,48 @@
 
 <h1>Sudoku</h1>
 
-<div id="grille"></div>
+<div id="wrapper">
 
-<div class="controls">
-  <button id="checkBtn">Vérifier</button>
-  <button id="resetBtn">Reset</button>
+  <aside id="regles">
+    <h2>📋 Règles du Sudoku</h2>
+    <ul>
+      <li>
+        <span class="num">1</span>
+        <p>Remplis toutes les cases vides de la grille.</p>
+      </li>
+      <li>
+        <span class="num">2</span>
+        <p>Chaque <strong>ligne</strong> doit contenir les chiffres <strong>1 à 9</strong> sans répétition.</p>
+      </li>
+      <li>
+        <span class="num">3</span>
+        <p>Chaque <strong>colonne</strong> doit contenir les chiffres <strong>1 à 9</strong> sans répétition.</p>
+      </li>
+      <li>
+        <span class="num">4</span>
+        <p>Chaque <strong>bloc 3×3</strong> doit contenir les chiffres <strong>1 à 9</strong> sans répétition.</p>
+      </li>
+      <li>
+        <span class="num">5</span>
+        <p>Une seule solution est possible par grille.</p>
+      </li>
+    </ul>
+    <div class="tip">
+      💡 <strong>Astuce :</strong> Utilise les flèches du clavier pour naviguer dans la grille.
+    </div>
+  </aside>
+
+  <div id="jeu">
+    <div id="grille"></div>
+    <div class="controls">
+      <button id="checkBtn">Vérifier</button>
+      <button id="resetBtn">Reset</button>
+    </div>
+    <p id="message"></p>
+  </div>
+
 </div>
 
-<p id="message"></p>
-
-<!-- ✅ SCRIPTS CORRECTS -->
 <script src="js/sudoku.js"></script>
 <script src="js/ui.js"></script>
 <script src="js/app.js"></script>
